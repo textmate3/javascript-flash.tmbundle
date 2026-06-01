@@ -4,7 +4,7 @@ SQUEEZER="/Applications/TextMate.app/Contents/SharedSupport/Bundles/Objective-C.
 
 cd data
 
-ruby18 $SQUEEZER < objects.txt > objects_compressed.txt
-ruby18 $SQUEEZER < methods.txt > methods_compressed.txt
-ruby18 $SQUEEZER < properties.txt > properties_compressed.txt
+ruby $SQUEEZER < objects.txt > objects_compressed.txt
+ruby $SQUEEZER < methods.txt > methods_compressed.txt
+ruby $SQUEEZER < properties.txt > properties_compressed.txt
 
